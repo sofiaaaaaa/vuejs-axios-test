@@ -8,7 +8,7 @@ import store from './store'
 
 Vue.use(Vuelidate);
 
-axios.defaults.baseURL = 'https://axios-project-643ac.firebaseio.com/'
+axios.defaults.baseURL = 'xxxxxx.firebaseio.com/'
 // axios.defaults.headers.common['Authorization'] = 'fasfdsa'
 axios.defaults.headers.get['Accepts'] = 'application/json'
 
