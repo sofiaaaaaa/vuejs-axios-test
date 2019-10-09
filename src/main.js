@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import axios from 'axios'
+import Vuelidate from 'vuelidate'
 
 import router from './router'
 import store from './store'
 
-axios.defaults.baseURL = 'https://XXXXXXXXXXX.firebaseio.com/'
+Vue.use(Vuelidate);
+
+axios.defaults.baseURL = 'https://axios-project-643ac.firebaseio.com/'
 // axios.defaults.headers.common['Authorization'] = 'fasfdsa'
 axios.defaults.headers.get['Accepts'] = 'application/json'
 
